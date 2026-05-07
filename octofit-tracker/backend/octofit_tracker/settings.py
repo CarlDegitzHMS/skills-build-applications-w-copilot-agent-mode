@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'corsheaders',
+    'djongo',
     'octofit_tracker',
 ]
 
@@ -59,7 +60,6 @@ MIDDLEWARE = [
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_ALL_METHODS = True
 CORS_ALLOW_ALL_HEADERS = True
-ALLOWED_HOSTS = ['*']
 
 ROOT_URLCONF = 'octofit_tracker.urls'
 
